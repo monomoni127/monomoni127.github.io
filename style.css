@@ -403,19 +403,26 @@ body {
 
 .twitter-link,
 .twitter-link:visited {
+  display: inline-block;
+
   color: #20201e;
+  background: #ffffff;
+
   text-decoration: none;
 
-  font-size: 20px;
+  font-size: 10px;
   font-weight: 600;
+
   letter-spacing: 0.06em;
+
+  padding: 3px 5px;
 
   transition: opacity 0.2s ease;
 }
 
 .twitter-link:hover {
   color: #20201e;
-  opacity: 0.45;
+  opacity: 0.55;
 }
 
 
@@ -429,11 +436,12 @@ body {
     "Noto Sans KR",
     sans-serif;
 
-  font-size: 42px;
+  font-size: 24px;
   font-weight: 400;
 
   line-height: 2;
 
-  letter-spacing: -0.045em;
+  letter-spacing: -0.03em;
+
   word-break: keep-all;
 }
