@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "KoPubWorldBatang";
+  src: url("fonts/KoPubWorld%20Batang_Pro%20Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
 /* =========================
    기본 설정
 ========================= */
@@ -211,19 +217,14 @@ body {
 
 
 .intro h2 {
-  font-family:
-    "Batang",
-    "바탕",
-    "Nanum Myeongjo",
-    serif;
+  font-family: "KoPubWorldBatang", serif;
 
-  font-weight: 400;
-  font-size: 28px;
+  font-weight: 300;
+  font-size: 21px;
 
   line-height: 2.5;
 
   letter-spacing: -0.03em;
-
   word-break: keep-all;
 }
 
