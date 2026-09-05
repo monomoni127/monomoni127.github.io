@@ -212,14 +212,13 @@ body {
 
 .intro h2 {
   font-family:
-    Georgia,
-    "Times New Roman",
     "Batang",
     "바탕",
+    "Nanum Myeongjo",
     serif;
 
   font-weight: 400;
-  font-size: 21px;
+  font-size: 28px;
 
   line-height: 2.5;
 
