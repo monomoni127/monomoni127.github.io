@@ -212,13 +212,14 @@ body {
 
 .intro h2 {
   font-family:
-    "Apple SD Gothic Neo",
-    "Noto Sans KR",
-    sans-serif;
+    Georgia,
+    "Times New Roman",
+    "Batang",
+    "바탕",
+    serif;
 
   font-weight: 400;
-
-  font-size: 28px;
+  font-size: 21px;
 
   line-height: 2.5;
 
