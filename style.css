@@ -399,3 +399,51 @@ body {
   }
 
 }
+/* 트위터 링크 */
+
+.twitter-link {
+  display: inline-block;
+
+  color: #20201e;
+
+  text-decoration: none;
+
+  font-size: 20px;
+
+  font-weight: 600;
+
+  letter-spacing: 0.06em;
+
+  transition: opacity 0.2s ease;
+}
+
+.twitter-link:hover {
+  opacity: 0.45;
+}
+
+
+/* 메인 문구 */
+
+.main-quote {
+  max-width: 900px;
+
+  font-family:
+    "Apple SD Gothic Neo",
+    "Noto Sans KR",
+    sans-serif;
+
+  font-size:
+    clamp(
+      34px,
+      4.5vw,
+      68px
+    );
+
+  font-weight: 400;
+
+  line-height: 1.32;
+
+  letter-spacing: -0.045em;
+
+  word-break: keep-all;
+}
